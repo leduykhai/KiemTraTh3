@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaiKhoan">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_417"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        app:itemTextColor="#000"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/list_hoso_417"
+                android:layout_width="368dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="50dp" />
+
+            <ListView
+                android:id="@+id/list_taikhoan_417"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="150dp" />
+
+            <Button
+                android:id="@+id/bthoso_417"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/list_taikhoan_417"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@color/button"
+                android:text="Hồ Sơ Cá Nhân"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btlogin_417"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/list_taikhoan_417"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="110dp"
+                android:background="@color/button"
+                android:text="Đăng xuất"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btlogin_417"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp"
+                android:text="DAIKIN VIETNAM 1.3.0(41)"
+                android:textColor="#000" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

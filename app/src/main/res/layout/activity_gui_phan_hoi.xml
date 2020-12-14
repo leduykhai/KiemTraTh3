@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuiPhanHoi">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_zalo"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PHẢN HỒI"
+        android:textColor="#000"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng điền nội dung bạn muốn phản ánh,"
+        android:textSize="15sp"
+        android:layout_marginTop="160dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nhân viên chăm sóc khách hàng của"
+        android:textSize="15sp"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAIKIN Việt Nam sẽ liên hệ với quý"
+        android:textSize="15sp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="khách hàng sớm nhất có thể"
+        android:textSize="15sp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHỦ ĐỀ"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="290dp"
+        android:hint="Chọn một chủ đề"
+        android:drawableRight="@drawable/ic_muiten"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHI TIẾT"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="380dp"
+        android:hint="Nhập chi tiết"
+        android:gravity="top"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Đóng"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button_dong"/>
+</RelativeLayout>
